@@ -15,7 +15,7 @@ class ViewController: UITableViewController {
         self.characters = parser.parseListOfCharactersFromJsonString(results)
         self.tableView.reloadData()
     }
-
+  
   }
   
 
